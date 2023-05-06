@@ -13,12 +13,12 @@ const USER_CONFIG = {
     // 使用微信测试号：公众号APP_SECRET
     APP_SECRET: '52447c4f0d88c3cd6dfc340eefedf315',
   
-   
+    PROVINCE: '广东',
+    CITY: '深圳',
   
     USERS: [
       {
-        PROVINCE: '广东',
-         CITY: '深圳',
+       
           // 想要发送的人的名字
         name: '吴小小',
         // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
@@ -53,8 +53,6 @@ const USER_CONFIG = {
         id: 'oJ1KC6sI9s7o0N3lUOeoWcgsw2Gc',
         // 使用微信测试号：你想对他发送的模板消息的模板ID
         useTemplateId: 'uGNRXTU-HixiAL3yV05Y3MTACbcdhYZjZ-k8f3BpgU0',
-         PROVINCE: '广东',
-         CITY: '深圳',
         // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
         horoscopeDate: '11-16',
         festivals: [
